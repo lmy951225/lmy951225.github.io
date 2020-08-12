@@ -1,4 +1,5 @@
 <table border="0">
+  <tr>    
     <td width="75%">
       <h1>李明月</h1>
       <p><b>硕士研究生</b></p>
@@ -11,3 +12,4 @@
       <img src="/IMG_4477(20200627-044659).JPG" width="100%">
     </td>
   </tr>
+</table>
