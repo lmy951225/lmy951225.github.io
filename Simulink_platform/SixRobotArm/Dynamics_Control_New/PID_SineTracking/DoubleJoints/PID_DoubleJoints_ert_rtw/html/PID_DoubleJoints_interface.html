@@ -1,0 +1,4746 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="stylesheet" type="text/css" href="rtwreport.css" /><script language="JavaScript" type="text/javascript">function rtwTableShrink(o) {var t = o.nextSibling;if (t.nodeType != 1) {t = t.nextSibling;}if (t.style.display == "none") {t.style.display = "";o.innerHTML = "[-]"} else {t.style.display = "none";o.innerHTML = "[+] ... "}}</script><script language="JavaScript" type="text/javascript" src="rtwreport_utils.js"></script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>
+Code Interface Report for PID_DoubleJoints
+</title>
+
+</head>
+<body ONLOAD="try {if (top) {if (top.rtwPageOnLoad) top.rtwPageOnLoad('rtwIdCodeInterface'); else local_onload();}} catch(err) {};">
+<h1>
+Code Interface Report for PID_DoubleJoints
+</h1>
+<h3>
+Table of Contents
+</h3>
+<ul>
+<li>
+<a href="#sec_Entry-Point_Functions">
+Entry-Point Functions
+</a>
+
+</li>
+<li>
+<a href="#sec_Inports">
+Inports
+</a>
+
+</li>
+<li>
+<a href="#sec_Outports">
+Outports
+</a>
+
+</li>
+<li>
+<a href="#sec_Interface_Parameters">
+Interface Parameters
+</a>
+
+</li>
+<li>
+<a href="#sec_Data_Stores">
+Data Stores
+</a>
+
+</li>
+
+</ul>
+<h3>
+<a name="sec_Entry-Point_Functions">
+Entry-Point Functions
+</a>
+
+</h3>
+<p>
+Function: <a href="PID_DoubleJoints_c.html#fcn_PID_DoubleJoints_initialize">PID_DoubleJoints_initialize</a>
+</p>
+<table width="100%" class="AltRow" cellspacing="0">
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Prototype
+</td>
+<td width="75%" align="left" valign="top">
+<b>
+void PID_DoubleJoints_initialize(void)
+</b>
+
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Description
+</td>
+<td width="75%" align="left" valign="top">
+Initialization entry point of generated code
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Timing
+</td>
+<td width="75%" align="left" valign="top">
+Must be called exactly once
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Arguments
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Return value
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Header file
+</td>
+<td width="75%" align="left" valign="top">
+<a href="PID_DoubleJoints_h.html">PID_DoubleJoints.h</a>
+</td>
+
+</tr>
+
+</table>
+<p>
+Function: <a href="PID_DoubleJoints_c.html#fcn_PID_DoubleJoints_step">PID_DoubleJoints_step</a>
+</p>
+<table width="100%" class="AltRow" cellspacing="0">
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Prototype
+</td>
+<td width="75%" align="left" valign="top">
+<b>
+void PID_DoubleJoints_step(void)
+</b>
+
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Description
+</td>
+<td width="75%" align="left" valign="top">
+Output entry point of generated code
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Timing
+</td>
+<td width="75%" align="left" valign="top">
+Must be called periodically, every 0.001 seconds
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Arguments
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Return value
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Header file
+</td>
+<td width="75%" align="left" valign="top">
+<a href="PID_DoubleJoints_h.html">PID_DoubleJoints.h</a>
+</td>
+
+</tr>
+
+</table>
+<p>
+Function: <a href="PID_DoubleJoints_c.html#fcn_PID_DoubleJoints_terminate">PID_DoubleJoints_terminate</a>
+</p>
+<table width="100%" class="AltRow" cellspacing="0">
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Prototype
+</td>
+<td width="75%" align="left" valign="top">
+<b>
+void PID_DoubleJoints_terminate(void)
+</b>
+
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Description
+</td>
+<td width="75%" align="left" valign="top">
+Termination entry point of generated code
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Timing
+</td>
+<td width="75%" align="left" valign="top">
+Must be called exactly once
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Arguments
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Return value
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Header file
+</td>
+<td width="75%" align="left" valign="top">
+<a href="PID_DoubleJoints_h.html">PID_DoubleJoints.h</a>
+</td>
+
+</tr>
+
+</table>
+<h3>
+<a name="sec_Inports">
+Inports
+</a>
+
+</h3>
+<p>
+No Inports in model.
+</p>
+<h3>
+<a name="sec_Outports">
+Outports
+</a>
+
+</h3>
+<p>
+No Outports in model.
+</p>
+<h3>
+<a name="sec_Interface_Parameters">
+Interface Parameters
+</a>
+
+</h3>
+<span title="Click to shrink or expand table" onclick="rtwTableShrink(this)">[-]</span><table width="100%" class="AltRow FirstColumn" cellspacing="0">
+<tr class="heading">
+<th width="42%" align="left" valign="top">
+<b>
+Parameter Source
+</b>
+
+</th>
+<th width="26%" align="left" valign="top">
+<b>
+Code Identifier
+</b>
+
+</th>
+<th width="21%" align="left" valign="top">
+<b>
+Data Type
+</b>
+
+</th>
+<th width="10%" align="right" valign="top">
+<b>
+Dimension
+</b>
+
+</th>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5116')" name="code2model" class="code2model">&lt;S8&gt;/GetAngle</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle_InitAngle
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5158')" name="code2model" class="code2model">&lt;S8&gt;/GetAngle1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle1_InitAngle
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5200')" name="code2model" class="code2model">&lt;S8&gt;/GetAngle2</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle2_InitAngle
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5242')" name="code2model" class="code2model">&lt;S8&gt;/GetAngle3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle3_InitAngle
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5284')" name="code2model" class="code2model">&lt;S8&gt;/GetAngle4</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle4_InitAngle
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5326')" name="code2model" class="code2model">&lt;S8&gt;/GetAngle5</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle5_InitAngle
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5368')" name="code2model" class="code2model">&lt;S8&gt;/GetAngleSpeed</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngleSpeed_JJoint
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5407')" name="code2model" class="code2model">&lt;S8&gt;/GetAngleSpeed1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngleSpeed1_JJoint
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5446')" name="code2model" class="code2model">&lt;S8&gt;/GetAngleSpeed2</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngleSpeed2_JJoint
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5485')" name="code2model" class="code2model">&lt;S8&gt;/GetAngleSpeed3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngleSpeed3_JJoint
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5524')" name="code2model" class="code2model">&lt;S8&gt;/GetAngleSpeed4</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngleSpeed4_JJoint
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5563')" name="code2model" class="code2model">&lt;S8&gt;/GetAngleSpeed5</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngleSpeed5_JJoint
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:3732')" name="code2model" class="code2model">&lt;S5&gt;/0x88</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.ux88_const
+</td>
+<td width="21%" align="left" valign="top">
+uint16_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:3731')" name="code2model" class="code2model">&lt;S5&gt;/0x0080</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.ux0080_const
+</td>
+<td width="21%" align="left" valign="top">
+uint16_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:3733')" name="code2model" class="code2model">&lt;S5&gt;/Compare To Constant1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.CompareToConstant1_const
+</td>
+<td width="21%" align="left" valign="top">
+uint16_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:3734')" name="code2model" class="code2model">&lt;S5&gt;/Compare To Constant2</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.CompareToConstant2_const
+</td>
+<td width="21%" align="left" valign="top">
+uint16_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5116')" name="code2model" class="code2model">&lt;S8&gt;/GetAngle</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle_JJoint
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5158')" name="code2model" class="code2model">&lt;S8&gt;/GetAngle1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle1_JJoint
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5200')" name="code2model" class="code2model">&lt;S8&gt;/GetAngle2</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle2_JJoint
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5242')" name="code2model" class="code2model">&lt;S8&gt;/GetAngle3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle3_JJoint
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5284')" name="code2model" class="code2model">&lt;S8&gt;/GetAngle4</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle4_JJoint
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5326')" name="code2model" class="code2model">&lt;S8&gt;/GetAngle5</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle5_JJoint
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5832')" name="code2model" class="code2model">&lt;S3&gt;/广播周期</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P._uplimit
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:4020')" name="code2model" class="code2model">&lt;S6&gt;/Constant1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant1_Value
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:4019')" name="code2model" class="code2model">&lt;S6&gt;/Constant</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant_Value
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:3992')" name="code2model" class="code2model">&lt;S6&gt;/Gain9</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Gain9_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:3991')" name="code2model" class="code2model">&lt;S6&gt;/Gain4</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Gain4_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:4021')" name="code2model" class="code2model">&lt;S6&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant3_Value
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:3950')" name="code2model" class="code2model">&lt;S6&gt;/Gain2</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Gain2_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:3923')" name="code2model" class="code2model">&lt;S6&gt;/Gain1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Gain1_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:3951')" name="code2model" class="code2model">&lt;S6&gt;/Gain3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Gain3_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:3924')" name="code2model" class="code2model">&lt;S6&gt;/Gain5</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Gain5_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:3917')" name="code2model" class="code2model">&lt;S6&gt;/Constant2</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant2_Value
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5875')" name="code2model" class="code2model">&lt;S7&gt;/Saturation2</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Saturation2_UpperSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5875')" name="code2model" class="code2model">&lt;S7&gt;/Saturation2</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Saturation2_LowerSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5874')" name="code2model" class="code2model">&lt;S7&gt;/Saturation1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Saturation1_UpperSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5874')" name="code2model" class="code2model">&lt;S7&gt;/Saturation1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Saturation1_LowerSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5876')" name="code2model" class="code2model">&lt;S7&gt;/Saturation3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Saturation3_UpperSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5876')" name="code2model" class="code2model">&lt;S7&gt;/Saturation3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Saturation3_LowerSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5877')" name="code2model" class="code2model">&lt;S7&gt;/Saturation4</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Saturation4_UpperSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5877')" name="code2model" class="code2model">&lt;S7&gt;/Saturation4</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Saturation4_LowerSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5878')" name="code2model" class="code2model">&lt;S7&gt;/Saturation5</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Saturation5_UpperSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5878')" name="code2model" class="code2model">&lt;S7&gt;/Saturation5</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Saturation5_LowerSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5879')" name="code2model" class="code2model">&lt;S7&gt;/Saturation6</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Saturation6_UpperSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5879')" name="code2model" class="code2model">&lt;S7&gt;/Saturation6</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Saturation6_LowerSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:3166')" name="code2model" class="code2model">&lt;S1&gt;/Gain5</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Gain5_Gain_l
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:3167')" name="code2model" class="code2model">&lt;S1&gt;/Gain7</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Gain7_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:3175')" name="code2model" class="code2model">&lt;S1&gt;/Gain6</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Gain6_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:3176')" name="code2model" class="code2model">&lt;S1&gt;/Gain8</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Gain8_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:2113')" name="code2model" class="code2model">&lt;S1&gt;/各个关节内转子 理想的角度</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P._InitialValue
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+[1  6]
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:2110')" name="code2model" class="code2model">&lt;S1&gt;/各个关节内转子采集 到的实际角度</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P._InitialValue_h
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+[1  6]
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:3044')" name="code2model" class="code2model">&lt;S1&gt;/各个关节内转子采集 到的实际角速度</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P._InitialValue_m
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+[1  6]
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:2114')" name="code2model" class="code2model">&lt;S1&gt;/各个关节的内转子 位置跟踪误差</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P._InitialValue_hw
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+[1  6]
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:3051')" name="code2model" class="code2model">&lt;S1&gt;/驱动各个关节 运动的力矩</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P._InitialValue_j
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+[6  2]
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:4606')" name="code2model" class="code2model">&lt;Root&gt;/Data Store Memory10</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.DataStoreMemory10_InitialValue
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+[1  6]
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:4608')" name="code2model" class="code2model">&lt;Root&gt;/Data Store Memory13</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.DataStoreMemory13_InitialValue
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+[1  6]
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:4610')" name="code2model" class="code2model">&lt;Root&gt;/Data Store Memory3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.DataStoreMemory3_InitialValue
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+[1  6]
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:4611')" name="code2model" class="code2model">&lt;Root&gt;/Data Store Memory4</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.DataStoreMemory4_InitialValue
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+[1  6]
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:4612')" name="code2model" class="code2model">&lt;Root&gt;/Data Store Memory5</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.DataStoreMemory5_InitialValue
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+[1  6]
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:4613')" name="code2model" class="code2model">&lt;Root&gt;/Data Store Memory6</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.DataStoreMemory6_InitialValue
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+[1  6]
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:4614')" name="code2model" class="code2model">&lt;Root&gt;/Data Store Memory7</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.DataStoreMemory7_InitialValue
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+[1  6]
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:4615')" name="code2model" class="code2model">&lt;Root&gt;/Data Store Memory8</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.DataStoreMemory8_InitialValue
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+[1  18]
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:4605')" name="code2model" class="code2model">&lt;Root&gt;/Data Store Memory1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.DataStoreMemory1_InitialValue
+</td>
+<td width="21%" align="left" valign="top">
+int32_T
+</td>
+<td width="10%" align="right" valign="top">
+[1  6]
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:4607')" name="code2model" class="code2model">&lt;Root&gt;/Data Store Memory11</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.DataStoreMemory11_InitialValue
+</td>
+<td width="21%" align="left" valign="top">
+int32_T
+</td>
+<td width="10%" align="right" valign="top">
+[1  6]
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:4609')" name="code2model" class="code2model">&lt;Root&gt;/Data Store Memory2</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.DataStoreMemory2_InitialValue
+</td>
+<td width="21%" align="left" valign="top">
+int32_T
+</td>
+<td width="10%" align="right" valign="top">
+[1  6]
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::877')" name="code2model" class="code2model">&lt;S28&gt;/Constant1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant1_Value_a
+</td>
+<td width="21%" align="left" valign="top">
+uint16_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::876')" name="code2model" class="code2model">&lt;S28&gt;/Constant</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant_Value_f
+</td>
+<td width="21%" align="left" valign="top">
+uint16_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::879')" name="code2model" class="code2model">&lt;S28&gt;/bx</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.bx_Y0
+</td>
+<td width="21%" align="left" valign="top">
+uint16_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::878')" name="code2model" class="code2model">&lt;S28&gt;/Switch</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Switch_Threshold
+</td>
+<td width="21%" align="left" valign="top">
+uint16_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::2011')" name="code2model" class="code2model">&lt;S27&gt;/MSG</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.MSG_Y0
+</td>
+<td width="21%" align="left" valign="top">
+uint16_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::1175')" name="code2model" class="code2model">&lt;S48&gt;/Out1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Out1_Y0
+</td>
+<td width="21%" align="left" valign="top">
+uint16_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::1170')" name="code2model" class="code2model">&lt;S29&gt;/Constant</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant_Value_a
+</td>
+<td width="21%" align="left" valign="top">
+uint16_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::1996')" name="code2model" class="code2model">&lt;S26&gt;/MSG</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.MSG_Y0_e
+</td>
+<td width="21%" align="left" valign="top">
+uint16_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::1845')" name="code2model" class="code2model">&lt;S25&gt;/MSG</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.MSG_Y0_b
+</td>
+<td width="21%" align="left" valign="top">
+uint16_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:3788')" name="code2model" class="code2model">&lt;S180&gt;/Constant</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant_Value_m
+</td>
+<td width="21%" align="left" valign="top">
+uint16_T
+</td>
+<td width="10%" align="right" valign="top">
+[1  9]
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:3784')" name="code2model" class="code2model">&lt;S172&gt;/Switch</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Switch_Threshold_a
+</td>
+<td width="21%" align="left" valign="top">
+uint16_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5822')" name="code2model" class="code2model">&lt;S163&gt;/Constant1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant1_Value_o
+</td>
+<td width="21%" align="left" valign="top">
+uint16_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:4616')" name="code2model" class="code2model">&lt;Root&gt;/Data Store Memory9</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.DataStoreMemory9_InitialValue
+</td>
+<td width="21%" align="left" valign="top">
+uint16_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:3781')" name="code2model" class="code2model">&lt;S172&gt;/Constant1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant1_Value_p
+</td>
+<td width="21%" align="left" valign="top">
+boolean_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:3780')" name="code2model" class="code2model">&lt;S172&gt;/Constant</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant_Value_e
+</td>
+<td width="21%" align="left" valign="top">
+boolean_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:3777')" name="code2model" class="code2model">&lt;S5&gt;/消息使能</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P._InitialValue_g
+</td>
+<td width="21%" align="left" valign="top">
+boolean_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5829')" name="code2model" class="code2model">&lt;S3&gt;/Constant</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant_Value_l
+</td>
+<td width="21%" align="left" valign="top">
+boolean_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5830')" name="code2model" class="code2model">&lt;S3&gt;/Constant1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant1_Value_f
+</td>
+<td width="21%" align="left" valign="top">
+boolean_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5852')" name="code2model" class="code2model">&lt;S16&gt;/Constant</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant_Value_n
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::115')" name="code2model" class="code2model">&lt;S42&gt;/Constant1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant1_Value_pe
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::116')" name="code2model" class="code2model">&lt;S42&gt;/Constant2</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant2_Value_h
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::117')" name="code2model" class="code2model">&lt;S42&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant3_Value_j
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::118')" name="code2model" class="code2model">&lt;S42&gt;/Constant8</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant8_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::1627')" name="code2model" class="code2model">&lt;S43&gt;/Constant1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant1_Value_at
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::1628')" name="code2model" class="code2model">&lt;S43&gt;/Constant2</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant2_Value_n
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::1629')" name="code2model" class="code2model">&lt;S43&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant3_Value_m
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::1630')" name="code2model" class="code2model">&lt;S43&gt;/Constant8</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant8_Value_g
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::1648')" name="code2model" class="code2model">&lt;S44&gt;/Constant1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant1_Value_n
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::1649')" name="code2model" class="code2model">&lt;S44&gt;/Constant2</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant2_Value_a
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::1650')" name="code2model" class="code2model">&lt;S44&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant3_Value_a
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::1651')" name="code2model" class="code2model">&lt;S44&gt;/Constant8</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant8_Value_j
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::1670')" name="code2model" class="code2model">&lt;S45&gt;/Constant1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant1_Value_aw
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::1671')" name="code2model" class="code2model">&lt;S45&gt;/Constant2</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant2_Value_c
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::1672')" name="code2model" class="code2model">&lt;S45&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant3_Value_b
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::1673')" name="code2model" class="code2model">&lt;S45&gt;/Constant8</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant8_Value_p
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::1691')" name="code2model" class="code2model">&lt;S46&gt;/Constant1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant1_Value_d
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::1692')" name="code2model" class="code2model">&lt;S46&gt;/Constant2</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant2_Value_e
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::1693')" name="code2model" class="code2model">&lt;S46&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant3_Value_o
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::1694')" name="code2model" class="code2model">&lt;S46&gt;/Constant8</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant8_Value_d
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::1712')" name="code2model" class="code2model">&lt;S47&gt;/Constant1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant1_Value_l
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::1713')" name="code2model" class="code2model">&lt;S47&gt;/Constant2</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant2_Value_f
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::1714')" name="code2model" class="code2model">&lt;S47&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant3_Value_af
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::1715')" name="code2model" class="code2model">&lt;S47&gt;/Constant8</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant8_Value_dl
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::282')" name="code2model" class="code2model">&lt;S27&gt;/Constant</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant_Value_d
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::286')" name="code2model" class="code2model">&lt;S26&gt;/Constant2</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant2_Value_k
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::635')" name="code2model" class="code2model">&lt;S25&gt;/Constant6</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant6_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5872')" name="code2model" class="code2model">&lt;S7&gt;/Data Store Memory1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.DataStoreMemory1_InitialValue_m
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5832:5:4')" name="code2model" class="code2model">&lt;S166&gt;/Constant</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Constant_Value_n3
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5832:4')" name="code2model" class="code2model">&lt;S164&gt;/Output</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Output_InitialCondition
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5831')" name="code2model" class="code2model">&lt;S3&gt;/Switch</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.Switch_Threshold_i
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5832:3:2')" name="code2model" class="code2model">&lt;S165&gt;/FixPt Constant</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.FixPtConstant_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1770')" name="code2model" class="code2model">&lt;S10&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_e.Constant3_Value
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1771')" name="code2model" class="code2model">&lt;S10&gt;/Gain14</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_e.Gain14_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1780')" name="code2model" class="code2model">&lt;S145&gt;/外转子理想 正弦信号</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_e.Subsystem._Y0
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1781')" name="code2model" class="code2model">&lt;S145&gt;/电机外转子 跟踪误差</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_e.Subsystem._Y0_a
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1779')" name="code2model" class="code2model">&lt;S145&gt;/限幅</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_e.Subsystem._UpperSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1779')" name="code2model" class="code2model">&lt;S145&gt;/限幅</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_e.Subsystem._LowerSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1770')" name="code2model" class="code2model">&lt;S10&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_k.Constant3_Value
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1771')" name="code2model" class="code2model">&lt;S10&gt;/Gain14</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_k.Gain14_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1780')" name="code2model" class="code2model">&lt;S145&gt;/外转子理想 正弦信号</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_k.Subsystem._Y0
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1781')" name="code2model" class="code2model">&lt;S145&gt;/电机外转子 跟踪误差</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_k.Subsystem._Y0_a
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1779')" name="code2model" class="code2model">&lt;S145&gt;/限幅</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_k.Subsystem._UpperSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1779')" name="code2model" class="code2model">&lt;S145&gt;/限幅</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_k.Subsystem._LowerSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1770')" name="code2model" class="code2model">&lt;S10&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_d.Constant3_Value
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1771')" name="code2model" class="code2model">&lt;S10&gt;/Gain14</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_d.Gain14_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1780')" name="code2model" class="code2model">&lt;S145&gt;/外转子理想 正弦信号</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_d.Subsystem._Y0
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1781')" name="code2model" class="code2model">&lt;S145&gt;/电机外转子 跟踪误差</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_d.Subsystem._Y0_a
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1779')" name="code2model" class="code2model">&lt;S145&gt;/限幅</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_d.Subsystem._UpperSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1779')" name="code2model" class="code2model">&lt;S145&gt;/限幅</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_d.Subsystem._LowerSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1770')" name="code2model" class="code2model">&lt;S10&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_j.Constant3_Value
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1771')" name="code2model" class="code2model">&lt;S10&gt;/Gain14</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_j.Gain14_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1780')" name="code2model" class="code2model">&lt;S145&gt;/外转子理想 正弦信号</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_j.Subsystem._Y0
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1781')" name="code2model" class="code2model">&lt;S145&gt;/电机外转子 跟踪误差</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_j.Subsystem._Y0_a
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1779')" name="code2model" class="code2model">&lt;S145&gt;/限幅</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_j.Subsystem._UpperSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1779')" name="code2model" class="code2model">&lt;S145&gt;/限幅</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_j.Subsystem._LowerSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1770')" name="code2model" class="code2model">&lt;S10&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_a.Constant3_Value
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1771')" name="code2model" class="code2model">&lt;S10&gt;/Gain14</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_a.Gain14_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1780')" name="code2model" class="code2model">&lt;S145&gt;/外转子理想 正弦信号</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_a.Subsystem._Y0
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1781')" name="code2model" class="code2model">&lt;S145&gt;/电机外转子 跟踪误差</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_a.Subsystem._Y0_a
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1779')" name="code2model" class="code2model">&lt;S145&gt;/限幅</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_a.Subsystem._UpperSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1779')" name="code2model" class="code2model">&lt;S145&gt;/限幅</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_a.Subsystem._LowerSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1772')" name="code2model" class="code2model">&lt;S10&gt;/Subsystem</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_l.Subsystem_Freq
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1770')" name="code2model" class="code2model">&lt;S10&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_l.Constant3_Value
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1771')" name="code2model" class="code2model">&lt;S10&gt;/Gain14</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_l.Gain14_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1778')" name="code2model" class="code2model">&lt;S145&gt;/ref_signal</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_l.Subsystem.ref_signal_Amplitude
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1778')" name="code2model" class="code2model">&lt;S145&gt;/ref_signal</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_l.Subsystem.ref_signal_Phase
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1780')" name="code2model" class="code2model">&lt;S145&gt;/外转子理想 正弦信号</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_l.Subsystem._Y0
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1781')" name="code2model" class="code2model">&lt;S145&gt;/电机外转子 跟踪误差</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_l.Subsystem._Y0_a
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1779')" name="code2model" class="code2model">&lt;S145&gt;/限幅</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_l.Subsystem._UpperSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1779')" name="code2model" class="code2model">&lt;S145&gt;/限幅</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.u_l.Subsystem._LowerSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1989:4')" name="code2model" class="code2model">&lt;S139&gt;/TSamp</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller6.TSamp_WtEt
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1990')" name="code2model" class="code2model">&lt;S133&gt;/Discrete-Time Integrator</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller6.DiscreteTimeIntegrator_gainval
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1990')" name="code2model" class="code2model">&lt;S133&gt;/Discrete-Time Integrator</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller6.DiscreteTimeIntegrator_IC
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1990')" name="code2model" class="code2model">&lt;S133&gt;/Discrete-Time Integrator</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller6.DiscreteTimeIntegrator_UpperSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1990')" name="code2model" class="code2model">&lt;S133&gt;/Discrete-Time Integrator</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller6.DiscreteTimeIntegrator_LowerSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1989:4')" name="code2model" class="code2model">&lt;S139&gt;/TSamp</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller5.TSamp_WtEt
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1990')" name="code2model" class="code2model">&lt;S133&gt;/Discrete-Time Integrator</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller5.DiscreteTimeIntegrator_gainval
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1990')" name="code2model" class="code2model">&lt;S133&gt;/Discrete-Time Integrator</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller5.DiscreteTimeIntegrator_IC
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1990')" name="code2model" class="code2model">&lt;S133&gt;/Discrete-Time Integrator</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller5.DiscreteTimeIntegrator_UpperSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1990')" name="code2model" class="code2model">&lt;S133&gt;/Discrete-Time Integrator</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller5.DiscreteTimeIntegrator_LowerSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1989:4')" name="code2model" class="code2model">&lt;S139&gt;/TSamp</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller4.TSamp_WtEt
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1990')" name="code2model" class="code2model">&lt;S133&gt;/Discrete-Time Integrator</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller4.DiscreteTimeIntegrator_gainval
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1990')" name="code2model" class="code2model">&lt;S133&gt;/Discrete-Time Integrator</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller4.DiscreteTimeIntegrator_IC
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1990')" name="code2model" class="code2model">&lt;S133&gt;/Discrete-Time Integrator</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller4.DiscreteTimeIntegrator_UpperSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1990')" name="code2model" class="code2model">&lt;S133&gt;/Discrete-Time Integrator</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller4.DiscreteTimeIntegrator_LowerSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1989:4')" name="code2model" class="code2model">&lt;S139&gt;/TSamp</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller3.TSamp_WtEt
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1990')" name="code2model" class="code2model">&lt;S133&gt;/Discrete-Time Integrator</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller3.DiscreteTimeIntegrator_gainval
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1990')" name="code2model" class="code2model">&lt;S133&gt;/Discrete-Time Integrator</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller3.DiscreteTimeIntegrator_IC
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1990')" name="code2model" class="code2model">&lt;S133&gt;/Discrete-Time Integrator</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller3.DiscreteTimeIntegrator_UpperSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1990')" name="code2model" class="code2model">&lt;S133&gt;/Discrete-Time Integrator</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller3.DiscreteTimeIntegrator_LowerSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1989:4')" name="code2model" class="code2model">&lt;S139&gt;/TSamp</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller2.TSamp_WtEt
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1990')" name="code2model" class="code2model">&lt;S133&gt;/Discrete-Time Integrator</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller2.DiscreteTimeIntegrator_gainval
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1990')" name="code2model" class="code2model">&lt;S133&gt;/Discrete-Time Integrator</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller2.DiscreteTimeIntegrator_IC
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1990')" name="code2model" class="code2model">&lt;S133&gt;/Discrete-Time Integrator</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller2.DiscreteTimeIntegrator_UpperSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1990')" name="code2model" class="code2model">&lt;S133&gt;/Discrete-Time Integrator</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller2.DiscreteTimeIntegrator_LowerSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1989')" name="code2model" class="code2model">&lt;S133&gt;/Discrete Derivative1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller1.DiscreteDerivative1_ICPrevScale
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1989:4')" name="code2model" class="code2model">&lt;S139&gt;/TSamp</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller1.TSamp_WtEt
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1990')" name="code2model" class="code2model">&lt;S133&gt;/Discrete-Time Integrator</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller1.DiscreteTimeIntegrator_gainval
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1990')" name="code2model" class="code2model">&lt;S133&gt;/Discrete-Time Integrator</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller1.DiscreteTimeIntegrator_IC
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1990')" name="code2model" class="code2model">&lt;S133&gt;/Discrete-Time Integrator</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller1.DiscreteTimeIntegrator_UpperSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:1990')" name="code2model" class="code2model">&lt;S133&gt;/Discrete-Time Integrator</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.PID_Controller1.DiscreteTimeIntegrator_LowerSat
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5371')" name="code2model" class="code2model">&lt;S55&gt;/Gain3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngleSpeed5.Gain3_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5372')" name="code2model" class="code2model">&lt;S55&gt;/Gain9</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngleSpeed5.Gain9_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5403')" name="code2model" class="code2model">&lt;S55&gt;/Merge1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngleSpeed5.Merge1_InitialOutput
+</td>
+<td width="21%" align="left" valign="top">
+int32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5371')" name="code2model" class="code2model">&lt;S55&gt;/Gain3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngleSpeed4.Gain3_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5372')" name="code2model" class="code2model">&lt;S55&gt;/Gain9</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngleSpeed4.Gain9_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5403')" name="code2model" class="code2model">&lt;S55&gt;/Merge1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngleSpeed4.Merge1_InitialOutput
+</td>
+<td width="21%" align="left" valign="top">
+int32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5371')" name="code2model" class="code2model">&lt;S55&gt;/Gain3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngleSpeed3.Gain3_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5372')" name="code2model" class="code2model">&lt;S55&gt;/Gain9</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngleSpeed3.Gain9_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5403')" name="code2model" class="code2model">&lt;S55&gt;/Merge1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngleSpeed3.Merge1_InitialOutput
+</td>
+<td width="21%" align="left" valign="top">
+int32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5371')" name="code2model" class="code2model">&lt;S55&gt;/Gain3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngleSpeed2.Gain3_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5372')" name="code2model" class="code2model">&lt;S55&gt;/Gain9</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngleSpeed2.Gain9_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5403')" name="code2model" class="code2model">&lt;S55&gt;/Merge1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngleSpeed2.Merge1_InitialOutput
+</td>
+<td width="21%" align="left" valign="top">
+int32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5371')" name="code2model" class="code2model">&lt;S55&gt;/Gain3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngleSpeed1.Gain3_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5372')" name="code2model" class="code2model">&lt;S55&gt;/Gain9</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngleSpeed1.Gain9_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5403')" name="code2model" class="code2model">&lt;S55&gt;/Merge1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngleSpeed1.Merge1_InitialOutput
+</td>
+<td width="21%" align="left" valign="top">
+int32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5371')" name="code2model" class="code2model">&lt;S55&gt;/Gain3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngleSpeed.Gain3_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5372')" name="code2model" class="code2model">&lt;S55&gt;/Gain9</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngleSpeed.Gain9_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5403')" name="code2model" class="code2model">&lt;S55&gt;/Merge1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngleSpeed.Merge1_InitialOutput
+</td>
+<td width="21%" align="left" valign="top">
+int32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5121')" name="code2model" class="code2model">&lt;S49&gt;/Constant4</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle5.Constant4_Value
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5120')" name="code2model" class="code2model">&lt;S49&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle5.Constant3_Value
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5125')" name="code2model" class="code2model">&lt;S49&gt;/Gain4</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle5.Gain4_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5124')" name="code2model" class="code2model">&lt;S49&gt;/Gain1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle5.Gain1_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5151')" name="code2model" class="code2model">&lt;S49&gt;/Merge</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle5.Merge_InitialOutput
+</td>
+<td width="21%" align="left" valign="top">
+int32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5121')" name="code2model" class="code2model">&lt;S49&gt;/Constant4</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle4.Constant4_Value
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5120')" name="code2model" class="code2model">&lt;S49&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle4.Constant3_Value
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5125')" name="code2model" class="code2model">&lt;S49&gt;/Gain4</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle4.Gain4_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5124')" name="code2model" class="code2model">&lt;S49&gt;/Gain1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle4.Gain1_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5151')" name="code2model" class="code2model">&lt;S49&gt;/Merge</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle4.Merge_InitialOutput
+</td>
+<td width="21%" align="left" valign="top">
+int32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5121')" name="code2model" class="code2model">&lt;S49&gt;/Constant4</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle3.Constant4_Value
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5120')" name="code2model" class="code2model">&lt;S49&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle3.Constant3_Value
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5125')" name="code2model" class="code2model">&lt;S49&gt;/Gain4</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle3.Gain4_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5124')" name="code2model" class="code2model">&lt;S49&gt;/Gain1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle3.Gain1_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5151')" name="code2model" class="code2model">&lt;S49&gt;/Merge</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle3.Merge_InitialOutput
+</td>
+<td width="21%" align="left" valign="top">
+int32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5121')" name="code2model" class="code2model">&lt;S49&gt;/Constant4</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle2.Constant4_Value
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5120')" name="code2model" class="code2model">&lt;S49&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle2.Constant3_Value
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5125')" name="code2model" class="code2model">&lt;S49&gt;/Gain4</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle2.Gain4_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5124')" name="code2model" class="code2model">&lt;S49&gt;/Gain1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle2.Gain1_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5151')" name="code2model" class="code2model">&lt;S49&gt;/Merge</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle2.Merge_InitialOutput
+</td>
+<td width="21%" align="left" valign="top">
+int32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5121')" name="code2model" class="code2model">&lt;S49&gt;/Constant4</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle1.Constant4_Value
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5120')" name="code2model" class="code2model">&lt;S49&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle1.Constant3_Value
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5125')" name="code2model" class="code2model">&lt;S49&gt;/Gain4</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle1.Gain4_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5124')" name="code2model" class="code2model">&lt;S49&gt;/Gain1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle1.Gain1_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5151')" name="code2model" class="code2model">&lt;S49&gt;/Merge</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle1.Merge_InitialOutput
+</td>
+<td width="21%" align="left" valign="top">
+int32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5121')" name="code2model" class="code2model">&lt;S49&gt;/Constant4</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle.Constant4_Value
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5120')" name="code2model" class="code2model">&lt;S49&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle.Constant3_Value
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5125')" name="code2model" class="code2model">&lt;S49&gt;/Gain4</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle.Gain4_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5124')" name="code2model" class="code2model">&lt;S49&gt;/Gain1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle.Gain1_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5151')" name="code2model" class="code2model">&lt;S49&gt;/Merge</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.GetAngle.Merge_InitialOutput
+</td>
+<td width="21%" align="left" valign="top">
+int32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::189')" name="code2model" class="code2model">&lt;S30&gt;/Constant1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J6_BG.Constant1_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::190')" name="code2model" class="code2model">&lt;S30&gt;/Constant2</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J6_BG.Constant2_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::191')" name="code2model" class="code2model">&lt;S30&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J6_BG.Constant3_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::192')" name="code2model" class="code2model">&lt;S30&gt;/Constant8</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J6_BG.Constant8_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::189')" name="code2model" class="code2model">&lt;S30&gt;/Constant1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J5_BG.Constant1_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::190')" name="code2model" class="code2model">&lt;S30&gt;/Constant2</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J5_BG.Constant2_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::191')" name="code2model" class="code2model">&lt;S30&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J5_BG.Constant3_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::192')" name="code2model" class="code2model">&lt;S30&gt;/Constant8</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J5_BG.Constant8_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::189')" name="code2model" class="code2model">&lt;S30&gt;/Constant1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J4_BG.Constant1_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::190')" name="code2model" class="code2model">&lt;S30&gt;/Constant2</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J4_BG.Constant2_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::191')" name="code2model" class="code2model">&lt;S30&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J4_BG.Constant3_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::192')" name="code2model" class="code2model">&lt;S30&gt;/Constant8</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J4_BG.Constant8_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::189')" name="code2model" class="code2model">&lt;S30&gt;/Constant1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J3_BG.Constant1_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::190')" name="code2model" class="code2model">&lt;S30&gt;/Constant2</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J3_BG.Constant2_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::191')" name="code2model" class="code2model">&lt;S30&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J3_BG.Constant3_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::192')" name="code2model" class="code2model">&lt;S30&gt;/Constant8</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J3_BG.Constant8_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::189')" name="code2model" class="code2model">&lt;S30&gt;/Constant1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J2_BG.Constant1_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::190')" name="code2model" class="code2model">&lt;S30&gt;/Constant2</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J2_BG.Constant2_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::191')" name="code2model" class="code2model">&lt;S30&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J2_BG.Constant3_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::192')" name="code2model" class="code2model">&lt;S30&gt;/Constant8</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J2_BG.Constant8_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::189')" name="code2model" class="code2model">&lt;S30&gt;/Constant1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J1_BG.Constant1_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::190')" name="code2model" class="code2model">&lt;S30&gt;/Constant2</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J1_BG.Constant2_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::191')" name="code2model" class="code2model">&lt;S30&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J1_BG.Constant3_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::192')" name="code2model" class="code2model">&lt;S30&gt;/Constant8</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J1_BG.Constant8_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::209')" name="code2model" class="code2model">&lt;S36&gt;/Constant1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J6_TF.Constant1_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::210')" name="code2model" class="code2model">&lt;S36&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J6_TF.Constant3_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::211')" name="code2model" class="code2model">&lt;S36&gt;/Constant8</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J6_TF.Constant8_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::209')" name="code2model" class="code2model">&lt;S36&gt;/Constant1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J5_TF.Constant1_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::210')" name="code2model" class="code2model">&lt;S36&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J5_TF.Constant3_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::211')" name="code2model" class="code2model">&lt;S36&gt;/Constant8</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J5_TF.Constant8_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::209')" name="code2model" class="code2model">&lt;S36&gt;/Constant1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J4_TF.Constant1_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::210')" name="code2model" class="code2model">&lt;S36&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J4_TF.Constant3_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::211')" name="code2model" class="code2model">&lt;S36&gt;/Constant8</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J4_TF.Constant8_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::209')" name="code2model" class="code2model">&lt;S36&gt;/Constant1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J3_TF.Constant1_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::210')" name="code2model" class="code2model">&lt;S36&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J3_TF.Constant3_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::211')" name="code2model" class="code2model">&lt;S36&gt;/Constant8</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J3_TF.Constant8_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::209')" name="code2model" class="code2model">&lt;S36&gt;/Constant1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J2_TF.Constant1_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::210')" name="code2model" class="code2model">&lt;S36&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J2_TF.Constant3_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::211')" name="code2model" class="code2model">&lt;S36&gt;/Constant8</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J2_TF.Constant8_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::209')" name="code2model" class="code2model">&lt;S36&gt;/Constant1</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J1_TF.Constant1_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::210')" name="code2model" class="code2model">&lt;S36&gt;/Constant3</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J1_TF.Constant3_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5888::211')" name="code2model" class="code2model">&lt;S36&gt;/Constant8</a>
+</td>
+<td width="26%" align="left" valign="top">
+PID_DoubleJoints_P.J1_TF.Constant8_Value
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+
+</table>
+<h3>
+<a name="sec_Data_Stores">
+Data Stores
+</a>
+
+</h3>
+<span title="Click to shrink or expand table" onclick="rtwTableShrink(this)">[-]</span><table width="100%" class="AltRow FirstColumn" cellspacing="0">
+<tr class="heading">
+<th width="42%" align="left" valign="top">
+<b>
+Data Store Source
+</b>
+
+</th>
+<th width="26%" align="left" valign="top">
+<b>
+Code Identifier
+</b>
+
+</th>
+<th width="21%" align="left" valign="top">
+<b>
+Data Type
+</b>
+
+</th>
+<th width="10%" align="right" valign="top">
+<b>
+Dimension
+</b>
+
+</th>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:4606')" name="code2model" class="code2model">&lt;Root&gt;/Data Store Memory10</a>
+</td>
+<td width="26%" align="left" valign="top">
+J7
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+[6]
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:4608')" name="code2model" class="code2model">&lt;Root&gt;/Data Store Memory13</a>
+</td>
+<td width="26%" align="left" valign="top">
+J1
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+[6]
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:4610')" name="code2model" class="code2model">&lt;Root&gt;/Data Store Memory3</a>
+</td>
+<td width="26%" align="left" valign="top">
+J2
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+[6]
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:4611')" name="code2model" class="code2model">&lt;Root&gt;/Data Store Memory4</a>
+</td>
+<td width="26%" align="left" valign="top">
+J3
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+[6]
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:4612')" name="code2model" class="code2model">&lt;Root&gt;/Data Store Memory5</a>
+</td>
+<td width="26%" align="left" valign="top">
+J4
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+[6]
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:4613')" name="code2model" class="code2model">&lt;Root&gt;/Data Store Memory6</a>
+</td>
+<td width="26%" align="left" valign="top">
+J5
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+[6]
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:4614')" name="code2model" class="code2model">&lt;Root&gt;/Data Store Memory7</a>
+</td>
+<td width="26%" align="left" valign="top">
+J6
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+[6]
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:4615')" name="code2model" class="code2model">&lt;Root&gt;/Data Store Memory8</a>
+</td>
+<td width="26%" align="left" valign="top">
+Send_GUIdata
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+[18]
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:2113')" name="code2model" class="code2model">&lt;S1&gt;/各个关节内转子 理想的角度</a>
+</td>
+<td width="26%" align="left" valign="top">
+qd
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+[6]
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:2110')" name="code2model" class="code2model">&lt;S1&gt;/各个关节内转子采集 到的实际角度</a>
+</td>
+<td width="26%" align="left" valign="top">
+q
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+[6]
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:3044')" name="code2model" class="code2model">&lt;S1&gt;/各个关节内转子采集 到的实际角速度</a>
+</td>
+<td width="26%" align="left" valign="top">
+dq
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+[6]
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:2114')" name="code2model" class="code2model">&lt;S1&gt;/各个关节的内转子 位置跟踪误差</a>
+</td>
+<td width="26%" align="left" valign="top">
+e
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+[6]
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:3051')" name="code2model" class="code2model">&lt;S1&gt;/驱动各个关节 运动的力矩</a>
+</td>
+<td width="26%" align="left" valign="top">
+Tau
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+[6  2]
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:4605')" name="code2model" class="code2model">&lt;Root&gt;/Data Store Memory1</a>
+</td>
+<td width="26%" align="left" valign="top">
+Motor_Position
+</td>
+<td width="21%" align="left" valign="top">
+int32_T
+</td>
+<td width="10%" align="right" valign="top">
+[6]
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:4607')" name="code2model" class="code2model">&lt;Root&gt;/Data Store Memory11</a>
+</td>
+<td width="26%" align="left" valign="top">
+Motor_Current
+</td>
+<td width="21%" align="left" valign="top">
+int32_T
+</td>
+<td width="10%" align="right" valign="top">
+[6]
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:4609')" name="code2model" class="code2model">&lt;Root&gt;/Data Store Memory2</a>
+</td>
+<td width="26%" align="left" valign="top">
+Motor_Velocity
+</td>
+<td width="21%" align="left" valign="top">
+int32_T
+</td>
+<td width="10%" align="right" valign="top">
+[6]
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:4616')" name="code2model" class="code2model">&lt;Root&gt;/Data Store Memory9</a>
+</td>
+<td width="26%" align="left" valign="top">
+StartRobot
+</td>
+<td width="21%" align="left" valign="top">
+uint16_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('PID_DoubleJoints:5872')" name="code2model" class="code2model">&lt;S7&gt;/Data Store Memory1</a>
+</td>
+<td width="26%" align="left" valign="top">
+TXD
+</td>
+<td width="21%" align="left" valign="top">
+uint8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
